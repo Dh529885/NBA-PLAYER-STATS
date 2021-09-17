@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>NBA Player's Stats</title>
+</head>
+
+<body>
+    <header>
+        <h1>🏀 NBA PLAYER STATS FINDER 🏀</h1>
+        <form>
+            <input type="text" placeholder="type player full name" />
+            <input type="submit" value="SUBMIT" />
+        </form>
+    </header>
+
+    <main>
+        <img src="" id="headShotUrl" alt="">
+        <div class="playerStats">
+                <h2>PLAYER BIO</h2>
+                <div class="table-responsive">
+                <table class="table- bordered">
+                    <thead>
+                        <tr>
+                            <th>First Name: </th>
+                            <th>Last Name: </th>
+                            <th>Age: </th>
+                            <th>Date Of Birth: </th>
+                            <th>Height: </th>
+                            <th>Weight: </th>
+                            <th>Team: </th>
+                            <th>Position: </th>
+                            <th>Jersey Number: </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td>
+                            <p id="firstName"></p>
+                        </td>
+                        <td>
+                            <p id="lastName"></p>
+                        </td>
+                        <td>
+                            <p id="age"></p>
+                        </td>
+                        <td>
+                            <p id="dateOfBirth"></p>
+                        </td>
+                        <td>
+                            <p id="height"></p>
+                        </td>
+                        <td>
+                            <p id="weight"></p>
+                        </td>
+                        <td>
+                            <p id="team"></p>
+                        </td>
+                        <td>
+                            <p id="position"></p>
+                        </td>
+                        <td>
+                            <p id="jerseyNumber"></p>
+                        </td>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>PLAYER NBA STATS</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Career Points: </th>
+                            <th>Carrer Assists:</th>
+                            <th>Career Rebounds: </th>
+                            <th>Career Blocks: </th>
+                            <th>Career Turnovers: </th>
+                            <th>Career Percentage Three:</th>
+                            <th>Career Percentage Freethrow: </th>
+                            <th>Career Percentage Field Goal: </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td>
+                            <p id="careerPoints"></p>
+                        </td>
+                        <td>
+                            <p id="carrerAssists"></p>
+                        </td>
+                        <td>
+                            <p id="careerRebounds"></p>
+                        </td>
+                        <td>
+                            <p id="careerBlocks"></p>
+                        </td>
+                        <td>
+                            <p id="careerTurnovers"></p>
+                        </td>
+                        <td>
+                            <p id="careerPercentageThree"></p>
+                        </td>
+                        <td>
+                            <p id="careerPercentageFreethrow"></p>
+                        </td>
+                        <td>
+                            <p id="careerPercentageFieldGoal"></p>
+                        </td>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+</body>
+
+</html>

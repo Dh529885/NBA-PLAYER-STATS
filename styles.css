@@ -1,0 +1,83 @@
+
+
+
+body {
+    text-align: center;
+    background: #F5F5F5;
+
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input[type="submit"] {
+    -moz-appearance: button;
+    -moz-binding: none;
+    -moz-box-sizing: border-box;
+    -moz-user-select: none;
+    background-color: #1d428a;
+    border: 2px outset buttonface;
+    color: #ffffff;
+    cursor: default;
+    font: -moz-button;
+    line-height: normal;
+    padding: 0 6px;
+    text-align: center;
+    text-shadow: none;
+    white-space: pre;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.playerStats{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+table{
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px LIGHT;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+thead{
+    box-shadow: 0 5px 10px #C0C0C0;
+
+}
+th{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    background-color: #1d428a;
+    color: white;
+}
+td{
+   padding: 1rem 2.1rem;
+}
+@media 
+only all and (max-width: 1200px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    .table-responsive{
+        max-height: 20em;
+        overflow-y: auto;
+    }
+    #headShotUrl {
+        max-width: 100%;
+        height: auto;
+      }
+  
+}
+
+
+
+
