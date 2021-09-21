@@ -68,7 +68,7 @@ td{
 only all and (max-width: 1200px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
     .table-responsive{
-        max-height: 20em;
+        max-height: 20rem;
         overflow-y: auto;
     }
     #headShotUrl {
